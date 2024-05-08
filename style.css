@@ -1,0 +1,86 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: rgba(77, 174, 222, 255);
+}
+
+.main{
+  max-width: 1300px;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(77, 174, 222, 255);
+}
+.meet-section{
+  background-color: rgba(77, 174, 222, 255);
+  height: 700px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  font-size: 50px;
+}
+.menu-icon{
+  width: 35px;
+  height: 30px;
+}
+.icon-bar{
+  border-radius: 15px;
+  border: 2px solid white;
+  margin: 2px;
+}
+.meet-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 100px;
+}
+.meet-section-content h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+.meet-section-content p {
+  font-size: 35px;
+  font-weight: lighter;
+  color: white;
+  margin-top: 0;
+}
+.download-container {
+  margin: 5px 0px;
+  padding: 15px 30px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  max-width: 250px;
+  cursor: pointer;
+}
+.btn-download {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  padding-right: 10px;
+}
+.header-img {
+  top: -55px;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.hello-section{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: white
+}
